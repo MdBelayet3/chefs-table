@@ -1,0 +1,83 @@
+[
+    {
+      "recipe_image": "https://i.ibb.co.com/3R3QkYN/chicken-stir-fry-vegetables-isolated-white-background.jpg",
+      "recipe_id": "001",
+      "recipe_name": "Chicken Stir-Fry",
+      "short_description": "A quick and healthy stir-fry with chicken, vegetables, and soy sauce.",
+      "ingredients": [
+        "500 g chicken breast",
+        "100 g broccoli",
+        "100 g bell peppers",
+        "50 g carrots",
+        "100 ml soy sauce",
+        "2 cloves garlic"
+      ],
+      "preparing_time": "25 min",
+      "calories": "350 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/YZmsB5P/pasta-dish-restaurant-table.jpg",
+      "recipe_id": "002",
+      "recipe_name": "Pasta Carbonara",
+      "short_description": "Classic Italian pasta dish with eggs, cheese, pancetta, and pepper.",
+      "ingredients": [
+        "400 g spaghetti",
+        "100 g pancetta",
+        "3 large eggs",
+        "100 g parmesan cheese",
+        "2 cloves garlic",
+        "1 tsp black pepper"
+      ],
+      "preparing_time": "20 min",
+      "calories": "450 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/TbMQcTb/grilled-chicken-rice-spicy-chickpeas-avocado-cabbage-pepper-buddha-bowl.jpg",
+      "recipe_id": "003",
+      "recipe_name": "Vegan Buddha Bowl",
+      "short_description": "A healthy bowl filled with grains, veggies, and plant-based proteins.",
+      "ingredients": [
+        "200 g quinoa",
+        "100 g chickpeas",
+        "50 g spinach",
+        "1 avocado",
+        "100 g roasted sweet potatoes",
+        "50 g red cabbage"
+      ],
+      "preparing_time": "30 min",
+      "calories": "300 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/Rhbm2pM/mexican-tacos-with-meat-beans-salsa.jpg",
+      "recipe_id": "004",
+      "recipe_name": "Beef Tacos",
+      "short_description": "Traditional Mexican tacos filled with spiced ground beef and toppings.",
+      "ingredients": [
+        "400 g ground beef",
+        "6 taco shells",
+        "100 g cheddar cheese",
+        "50 g lettuce",
+        "50 g salsa",
+        "50 g sour cream"
+      ],
+      "preparing_time": "20 min",
+      "calories": "400 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/VqbNjFs/chocolate-cake-decorated-with-chocolate-pieces.jpg",
+      "recipe_id": "005",
+      "recipe_name": "Chocolate Cake",
+      "short_description": "A rich and moist chocolate cake topped with chocolate frosting.",
+      "ingredients": [
+        "200 g flour",
+        "100 g cocoa powder",
+        "200 g sugar",
+        "3 eggs",
+        "150 ml milk",
+        "100 g butter"
+      ],
+      "preparing_time": "45 min",
+      "calories": "500 calories"
+    }
+  ]
+  
