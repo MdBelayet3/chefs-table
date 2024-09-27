@@ -14,6 +14,27 @@ function App() {
       .then(data => setRecipes(data));
   }, [])
 
+  // useState and handler for handling want to cook button of Recipe.jsx component
+  const [foods, setFoods] =useState([])
+  
+  const handleWantToCookBtn = recipe =>{
+    // console.log('handle click btn ');
+    // console.log(recipe);
+    setFoods([...foods,recipe]);
+  }
+
+  // 
+  const [preparingFood, setPreparingFood] = useState([]);
+
+  const handlePreparingBtn = (food) =>{
+    // console.log('btn click')
+    // console.log(food);
+    const remainingFoods = foods.filter(newFood => newFood.recipe_id !== food.recipe_id)
+    console.log(remainingFoods);
+    setFoods(remainingFoods);
+    setPreparingFood([...preparingFood,food]);
+  }
+
   return (
     <div className='py-10 md:max-w-7xl max-w-md mx-auto'>
       <header>
@@ -25,9 +46,9 @@ function App() {
           <p className='mb-12'>
             Our recipes bring together a fusion of flavors, combining fresh ingredients with easy-to-follow steps, allowing you to create delicious, restaurant-quality dishes right in your own kitchen. Savor every bite!</p>
         </div>
-        <div className='flex'>
-          <Recipes recipes={recipes} ></Recipes>
-          <CookingPart></CookingPart>
+        <div className='flex md:flex-row flex-col'>
+          <Recipes handleWantToCookBtn={handleWantToCookBtn} recipes={recipes} ></Recipes>
+          <CookingPart preparingFood={preparingFood} handlePreparingBtn={handlePreparingBtn} foods={foods} ></CookingPart>
         </div>
       </main>
     </div>

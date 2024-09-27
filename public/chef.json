@@ -1,7 +1,7 @@
 [
     {
       "recipe_image": "https://i.ibb.co.com/3R3QkYN/chicken-stir-fry-vegetables-isolated-white-background.jpg",
-      "recipe_id": "001",
+      "recipe_id": "1",
       "recipe_name": "Chicken Stir-Fry",
       "short_description": "A quick and healthy stir-fry with chicken, vegetables, and soy sauce.",
       "ingredients": [
@@ -17,7 +17,7 @@
     },
     {
       "recipe_image": "https://i.ibb.co.com/YZmsB5P/pasta-dish-restaurant-table.jpg",
-      "recipe_id": "002",
+      "recipe_id": "2",
       "recipe_name": "Pasta Carbonara",
       "short_description": "Classic Italian pasta dish with eggs, cheese, pancetta, and pepper.",
       "ingredients": [
@@ -33,7 +33,7 @@
     },
     {
       "recipe_image": "https://i.ibb.co.com/TbMQcTb/grilled-chicken-rice-spicy-chickpeas-avocado-cabbage-pepper-buddha-bowl.jpg",
-      "recipe_id": "003",
+      "recipe_id": "3",
       "recipe_name": "Vegan Buddha Bowl",
       "short_description": "A healthy bowl filled with grains, veggies, and plant-based proteins.",
       "ingredients": [
@@ -49,7 +49,7 @@
     },
     {
       "recipe_image": "https://i.ibb.co.com/Rhbm2pM/mexican-tacos-with-meat-beans-salsa.jpg",
-      "recipe_id": "004",
+      "recipe_id": "4",
       "recipe_name": "Beef Tacos",
       "short_description": "Traditional Mexican tacos filled with spiced ground beef and toppings.",
       "ingredients": [
@@ -65,7 +65,7 @@
     },
     {
       "recipe_image": "https://i.ibb.co.com/VqbNjFs/chocolate-cake-decorated-with-chocolate-pieces.jpg",
-      "recipe_id": "005",
+      "recipe_id": "5",
       "recipe_name": "Chocolate Cake",
       "short_description": "A rich and moist chocolate cake topped with chocolate frosting.",
       "ingredients": [

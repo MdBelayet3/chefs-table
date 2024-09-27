@@ -2,9 +2,10 @@ import PropTypes from 'prop-types';
 import { FaRegClock } from "react-icons/fa";
 import { AiOutlineFire } from "react-icons/ai";
 
-const Recipe = ({ recipe }) => {
-    console.log(recipe);
-    const { calories, recipe_id, recipe_image, recipe_name, short_description, preparing_time, ingredients } = recipe;
+const Recipe = ({ recipe, handleWantToCookBtn }) => {
+
+    const { calories, recipe_image, recipe_name, short_description, preparing_time, ingredients } = recipe;
+
     return (
         <div className='p-6 shadow-md border-2 border-[#28282833] rounded-2xl flex flex-col gap-5 md:mb-0 mb-5 '>
             <img className='rounded-2xl h-[300px] w-full' src={recipe_image} alt={`image of ${recipe_name}`} />
@@ -30,7 +31,7 @@ const Recipe = ({ recipe }) => {
                 </div>
             </div>
             <div>
-            <button className='py-3 px-6 bg-[#0BE58A] hover:bg-lime-400 hover:text-lg rounded-3xl'>Want to Cook</button>
+            <button onClick={() =>handleWantToCookBtn(recipe)} className='py-3 px-6 bg-[#0BE58A] hover:bg-lime-400 hover:text-lg rounded-3xl'>Want to Cook</button>
             </div>
         </div>
     );
@@ -38,6 +39,7 @@ const Recipe = ({ recipe }) => {
 
 Recipe.propTypes = {
     recipe: PropTypes.object.isRequired,
+    handleWantToCookBtn: PropTypes.func.isRequired,
 };
 
 export default Recipe;
